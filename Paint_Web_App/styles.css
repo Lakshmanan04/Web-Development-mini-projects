@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+canvas {
+     width:100%;
+     border: 2px solid black;
+}
+
+.controls {
+     bottom: 10px;
+     left: 10px;
+     gap: 10px;
+     margin:10px;
+}
+.colorSquare {
+    width: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+.selected {
+    border: 2px solid ;
+}
+button{
+    width:50px;
+}
