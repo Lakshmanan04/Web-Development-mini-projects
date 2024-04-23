@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a2e;
+    color: #fff; 
+    height: 100vh;
+}
+
+#rs {
+    background-color: #16213e; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#ms, #tq, #ss, #p {
+    margin-bottom: 20px;
+}
+
+#ss {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 5px;
+}
+
+.seat {
+    width: 20px;
+    height: 20px;
+    background-color: #0f3460; 
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.seat.selected {
+    background-color: #e94560; 
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #4ecca3; 
+    background-color: #0f3460; 
+    color: #ffffff; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #e94560;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f57190; 
+}
